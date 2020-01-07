@@ -64,3 +64,9 @@ section h2 {
 .projects {
 	background: linear-gradient(to right top, #c0392b, #8e44ad);
 }
+
+.bubble-effect {
+	background: linear-gradient(to right top, #800080, #ffc0cb);
+	position: absolute;
+	z-index: -2;
+}
