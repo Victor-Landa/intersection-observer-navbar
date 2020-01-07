@@ -7,3 +7,60 @@
 body {
 	font-family: sans-serif;
 }
+
+header {
+	background-color: #ffffff;
+	/* 0 in X 3px in Y and 10px of blur */
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+	position: sticky;
+	top: 0;
+}
+
+nav {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	min-height: 10vh;
+	width: 90%;
+}
+
+header h1, nav ul {
+	font-size: 1.5rem;
+	flex: 1;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav a {
+	color: #000000;
+	text-decoration: none;
+}
+
+section {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+section h2 {
+	color: #ffffff;
+	font-size: 5rem;
+}
+
+.home {
+	background: linear-gradient(to right top, #800080, #ffc0cb);
+}
+
+.gallery {
+	background: linear-gradient(to right top, #0f0c29, #302b63, #24243e);
+}
+
+.projects {
+	background: linear-gradient(to right top, #c0392b, #8e44ad);
+}
