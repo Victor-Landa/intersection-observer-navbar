@@ -7,6 +7,29 @@
     <title>Navbar Animation</title>
 </head>
 <body>
+	<header>
+		<nav>
+			<h1>Personal Develop 🚀</h1>
+			<ul>
+				<!-- We add data-page to create and reference the sections -->
+				<li><a data-page="home" href="#">Home</a></li>
+				<li><a data-page="gallery" href="#">Gallery</a></li>
+				<li><a data-page="projects" href="#">Projects</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section data-index="0" class="home">
+			<h2>Home</h2>
+		</section>
+		<section data-index="1" class="gallery">
+			<h2>Gallery</h2>
+		</section>
+		<section data-index="2" class="projects">
+			<h2>Projects</h2>
+		</section>
+	</main>
 	<script src="./app.js"></script>
 </body>
 </html>
